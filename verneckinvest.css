@@ -63,7 +63,6 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,6 +77,7 @@
     color: rgb(246, 246, 250);
     /*cor do texto*/
     text-align: center;
+    font-weight: bold;
     /*alinhamneto centralizado do texto*/
     font-size: 2rem;
     /*tamanho da letra dentro da caixa*/
@@ -100,17 +100,17 @@
     height: 20rem;
     /*altura da caixa utilizando o REM*/
     min-width: 299px;
+    /* background: linear-gradient(90deg, rgba(2, 0, 36, 0.253) 0%, rgba(9, 9, 121, 1) 100%), url(imagens/pexels-blur-1853262_1280.jpg); */
+    background-image: url(imagens/pexels-blur-1853262_1280.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background: linear-gradient(90deg, rgba(2, 0, 36, 0.253) 0%, rgba(9, 9, 121, 1) 100%), url(imagens/pexels-blur-1853262_1280.jpg); */
-    background-image: url(imagens/pexels-blur-1853262_1280.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: #000221;
-
+    gap: 15px;
 
 }
 
@@ -124,23 +124,74 @@
 
 .ul-div01 li {
     margin: 5px 5px;
-    /*alterando os lados do elemento*/
+    /*Alterando em cima e embaixo | alterando os lados do elemento*/
 }
 
-.fa-building-columns,
-.fa-money-bill-trend-up {
+
+.div02 i {
+
     color: white;
     font-size: 1.1rem;
     display: flex;
-    align-items:;
+    align-items: center;
     justify-content: center;
     flex-direction: row;
-    
     gap: 15px;
 }
 
-.fa-building-columns:hover,
-.fa-money-bill-trend-up:hover {
+.div02 i:hover {
 
     color: #efed89;
 }
+/*Aqui estamos estilizando a tarja em destaque entre as sections*/
+.img-div {
+
+    padding: 2%;/*preenchimento interno*/
+    background-image: url(imagens/Textura.png);/*caminho da imagem*/
+    background-position: center;/*posicionamento da imagem*/
+    background-size: cover;/*preenchimento total da imagem*/
+}
+
+/*Estilizando a segunda section*/
+.section-02 {
+display: flex;
+justify-content: center;
+gap: 1.5rem;
+padding: 5rem;
+background-color: #000221;
+flex-wrap: wrap;/*aceita a quebra de caixa ao diminuir o tamanho da pagina*/
+
+}
+
+/*Estilização das 3 div sec 2*/
+.caixa {
+
+    width:25% ;/*Largura da caixa*/
+    height:22rem ;/*altura da caixa*/
+    background-color:rgb(58, 77, 189);/*cor do fundo*/
+    min-width:299px ;/*largura minima da div*/
+    color: white;/*cor dos textos*/
+    box-shadow: 5px 5px 10px rgb(179, 221, 245);
+    cursor: pointer; /*ativando cursor pointer*/
+}
+
+.caixa:hover {
+    box-shadow: 10px 10px 20px rgb(179, 221, 245);
+    background-color:rgb(35, 46, 107);/*cor do fundo*/
+    transition: 0.8s;
+
+}
+
+.section-03 {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background-color: #000221;
+    flex-wrap: wrap;/*aceita a quebra de caixa ao diminuir o tamanho da pagina*/
+
+}
+ .div03, .div04 {
+
+    height: 15rem;
+ }
