@@ -47,11 +47,12 @@
     /*seria 80px*/
     padding: 0.5rem;
     /*seria 8px*/
-    background-color: #efed89;
+    background-color: rgb(58, 77, 189);
     border: none;
     font-weight: 700;
     /*espessura da fonte do botão*/
     border-radius: 5px;
+    color: white;
 }
 
 .section-01 {
@@ -93,15 +94,12 @@
 
 .div02 {
 
-    padding: 1rem;
-    /*preenchimento da caixa*/
-    width: 25%;
-    /*largura da caixa em porcentagem*/
-    height: 20rem;
-    /*altura da caixa utilizando o REM*/
+    padding: 1rem;/*preenchimento da caixa*/
+    width: 25%;/*largura da caixa em porcentagem*/
+    height: 20rem;/*altura da caixa utilizando o REM*/
     min-width: 299px;
     /* background: linear-gradient(90deg, rgba(2, 0, 36, 0.253) 0%, rgba(9, 9, 121, 1) 100%), url(imagens/pexels-blur-1853262_1280.jpg); */
-    background-image: url(imagens/pexels-blur-1853262_1280.jpg);
+    background-image: url(imagens/Grafico\ Trade\ 2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,6 +109,8 @@
     flex-direction: column;
     background-color: #000221;
     gap: 15px;
+    
+    
 
 }
 
@@ -137,6 +137,9 @@
     justify-content: center;
     flex-direction: row;
     gap: 15px;
+   
+
+   
 }
 
 .div02 i:hover {
@@ -146,7 +149,7 @@
 /*Aqui estamos estilizando a tarja em destaque entre as sections*/
 .img-div {
 
-    padding: 2%;/*preenchimento interno*/
+    padding: 1%;/*preenchimento interno*/
     background-image: url(imagens/Textura.png);/*caminho da imagem*/
     background-position: center;/*posicionamento da imagem*/
     background-size: cover;/*preenchimento total da imagem*/
@@ -190,8 +193,49 @@ flex-wrap: wrap;/*aceita a quebra de caixa ao diminuir o tamanho da pagina*/
     background-color: #000221;
     flex-wrap: wrap;/*aceita a quebra de caixa ao diminuir o tamanho da pagina*/
 
-}
+}/*chamando as classes primarias para estilização*/
  .div03, .div04 {
 
     height: 15rem;
+    padding: 1rem;
+    text-align: center;
  }
+/*Estilização dos textos da primeira caixa*/
+ .content-text {
+    text-align: start;/*alinhado o texto ao inicio padrão*/
+    margin-top: 1rem;/*espaçamento em torno da caixa*/
+    font-weight: 500;/*peso da font*/
+ }
+ .icon-div03 i {
+    font-size: 2.8rem;
+    margin-top: 1.3rem;
+ }
+ /*Inicio formatação caixa 02 section 03*/
+ .button-div04 a button {
+
+    padding: 0.5rem;/*preenchimento interno*/
+    background-color: #000221;/*cor do fundo*/
+    color: white;/*cor do texto*/
+    font-weight: 600;/*peso da font*/
+    margin: 1rem 0;/*espaçamento sup/inf 1rem, e 0 nas laterais*/
+ }
+
+ .text-div04 p {
+
+
+ }
+ .section-04 {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background-color: #000221;
+    flex-wrap: wrap;/*aceita a quebra de caixa ao diminuir o tamanho da pagina*/
+    
+    }
+    .Linha {
+    width:100%; 
+    border: 1px solid white
+    }
+
+    
