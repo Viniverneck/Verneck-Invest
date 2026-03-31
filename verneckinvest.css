@@ -94,9 +94,12 @@
 
 .div02 {
 
-    padding: 1rem;/*preenchimento da caixa*/
-    width: 25%;/*largura da caixa em porcentagem*/
-    height: 20rem;/*altura da caixa utilizando o REM*/
+    padding: 1rem;
+    /*preenchimento da caixa*/
+    width: 25%;
+    /*largura da caixa em porcentagem*/
+    height: 20rem;
+    /*altura da caixa utilizando o REM*/
     min-width: 299px;
     /* background: linear-gradient(90deg, rgba(2, 0, 36, 0.253) 0%, rgba(9, 9, 121, 1) 100%), url(imagens/pexels-blur-1853262_1280.jpg); */
     background-image: url(imagens/Grafico\ Trade\ 2.png);
@@ -109,8 +112,8 @@
     flex-direction: column;
     background-color: #000221;
     gap: 15px;
-    
-    
+
+
 
 }
 
@@ -137,50 +140,85 @@
     justify-content: center;
     flex-direction: row;
     gap: 15px;
-   
 
-   
+
+
 }
 
 .div02 i:hover {
 
     color: #efed89;
 }
+
 /*Aqui estamos estilizando a tarja em destaque entre as sections*/
 .img-div {
 
-    padding: 1%;/*preenchimento interno*/
-    background-image: url(imagens/Textura.png);/*caminho da imagem*/
-    background-position: center;/*posicionamento da imagem*/
-    background-size: cover;/*preenchimento total da imagem*/
+    padding: 1%;
+    /*preenchimento interno*/
+    background-image: url(imagens/textura\ novo.png);
+    /*caminho da imagem*/
+    background-position: center;
+    /*posicionamento da imagem*/
+    background-size: cover;
+    /*preenchimento total da imagem*/
 }
 
 /*Estilizando a segunda section*/
 .section-02 {
-display: flex;
-justify-content: center;
-gap: 1.5rem;
-padding: 5rem;
-background-color: #000221;
-flex-wrap: wrap;/*aceita a quebra de caixa ao diminuir o tamanho da pagina*/
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background-color: #000221;
+    flex-wrap: wrap;
+    /*aceita a quebra de caixa ao diminuir o tamanho da pagina*/
 
+}
+
+.caixa button {
+
+    padding: 0.5rem;
+    /*preenchimento interno*/
+    background-color: #000221;
+    /*cor do fundo*/
+    color: white;
+    /*cor do texto*/
+    font-weight: 600;
+    /*peso da font*/
+    margin: 1rem 0;
+    /*espaçamento sup/inf 1rem, e 0 nas laterais*/
 }
 
 /*Estilização das 3 div sec 2*/
 .caixa {
 
-    width:25% ;/*Largura da caixa*/
-    height:22rem ;/*altura da caixa*/
-    background-color:rgb(58, 77, 189);/*cor do fundo*/
-    min-width:299px ;/*largura minima da div*/
-    color: white;/*cor dos textos*/
+    width: 25%;
+    /*Largura da caixa*/
+    height: 22rem;
+    /*altura da caixa*/
+    background-color:#000221 /*rgb(58, 77, 189)*/;
+    /*cor do fundo*/
+    min-width: 299px;
+    /*largura minima da div*/
+    color: white;
+    /*cor dos textos*/
     box-shadow: 5px 5px 10px rgb(179, 221, 245);
-    cursor: pointer; /*ativando cursor pointer*/
+    cursor: pointer;
+    /*ativando cursor pointer*/
+
+    text-align: center;
+    
+}
+
+.caixa p {
+
+    margin: 0.8rem;
 }
 
 .caixa:hover {
     box-shadow: 10px 10px 20px rgb(179, 221, 245);
-    background-color:rgb(35, 46, 107);/*cor do fundo*/
+    background-color: rgb(35, 46, 107);
+    /*cor do fundo*/
     transition: 0.8s;
 
 }
@@ -191,51 +229,144 @@ flex-wrap: wrap;/*aceita a quebra de caixa ao diminuir o tamanho da pagina*/
     gap: 1.5rem;
     padding: 5rem;
     background-color: #000221;
-    flex-wrap: wrap;/*aceita a quebra de caixa ao diminuir o tamanho da pagina*/
+    flex-wrap: wrap;
+    /*aceita a quebra de caixa ao diminuir o tamanho da pagina*/
 
-}/*chamando as classes primarias para estilização*/
- .div03, .div04 {
+}
+
+/*chamando as classes primarias para estilização*/
+.div03,
+.div04 {
 
     height: 15rem;
     padding: 1rem;
     text-align: center;
- }
+}
+
 /*Estilização dos textos da primeira caixa*/
- .content-text {
-    text-align: start;/*alinhado o texto ao inicio padrão*/
-    margin-top: 1rem;/*espaçamento em torno da caixa*/
-    font-weight: 500;/*peso da font*/
- }
- .icon-div03 i {
+.content-text {
+    text-align: center;
+    /*alinhado o texto ao inicio padrão*/
+    margin-top: 1rem;
+    /*espaçamento em torno da caixa*/
+    font-weight: 500;
+    /*peso da font*/
+}
+
+.icon-div03 i {
     font-size: 2.8rem;
     margin-top: 1.3rem;
- }
- /*Inicio formatação caixa 02 section 03*/
- .button-div04 a button {
+}
 
-    padding: 0.5rem;/*preenchimento interno*/
-    background-color: #000221;/*cor do fundo*/
-    color: white;/*cor do texto*/
-    font-weight: 600;/*peso da font*/
-    margin: 1rem 0;/*espaçamento sup/inf 1rem, e 0 nas laterais*/
- }
+/*Inicio formatação caixa 02 section 03*/
+.button-div04 a button {
 
- .text-div04 p {
+    padding: 0.5rem;
+    /*preenchimento interno*/
+    background-color: #000221;
+    /*cor do fundo*/
+    color: white;
+    /*cor do texto*/
+    font-weight: 600;
+    /*peso da font*/
+    margin: 1rem 0;
+    /*espaçamento sup/inf 1rem, e 0 nas laterais*/
+}
 
+.text-div04 p {}
 
- }
- .section-04 {
+.section-04 {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
     padding: 5rem;
     background-color: #000221;
-    flex-wrap: wrap;/*aceita a quebra de caixa ao diminuir o tamanho da pagina*/
-    
-    }
-    .Linha {
-    width:100%; 
-    border: 1px solid white
-    }
+    flex-wrap: wrap;
+    /*aceita a quebra de caixa ao diminuir o tamanho da pagina*/
 
+}
+
+.Linha {
+    width: 100%;
+    border: 1px solid white
+}
+
+
+
+
+/*Iniicio Estilização Rodapé*/
+.rodape {
+    background-color: #000221;
+    /*cor de fundo do rodapé*/
+    padding: 2rem;
+    /*32px*/
+    text-align: center;
+    /*alinhado texto ao centro*/
+    font-size: 1.1rem;
+    /*definindo tamnho do texto*/
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.social-media i {
+    padding: 1.5rem;
+    font-size: 25px;
+}
+
+
+.social-media li {
+    color: white;
+    font-size: 2em;
+    margin: 0.5em;
+
+}
+
+/*LInha divisoria entre as div principais*/
+
+.line {
+    width: 60%; /*Largura da linha*/
+    margin: 0.5rem auto; /*Espaçamento em torno da linha superior e inferior (0.5rem) com as laterias automaticas (navegador) */
+    background: white;/*cor de fundo da borda*/
+    border: none;/*remover as bordas por padrão*/
+    height: 2px;/*definir altura da linha*/
+
+}
+
+.div-list ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.div-list ul li a:hover {
+
+    color: grey;
+    transition: 0.8s;
+}
+
+.div-list ul li {
+
+    margin-bottom: 1.5rem;
+
+
+}
+
+@media (max-width: 600px){
+
+    .content { flex-direction: column;
     
+}}
+
+.caixa img {
+
+    width: 100%;
+    height: 50%;
+}
+
