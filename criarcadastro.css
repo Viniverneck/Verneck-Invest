@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(42, 46, 155, 1) 0%, rgba(42, 46, 155, 1) 50%, rgba(42, 46, 155, 0.48) 100%);
+}
+
+.contanier {
+  
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+
+}
+
+
+.caixa-01 {
+    background-color: black;
+    color: white;
+    margin-bottom: 1.5rem;
+    
+}
+
+.caixa-01 h2 {
+padding: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.caixa-02 {
+
+    background-color: white;
+}
+
+.caixa-02 input {
+    
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #171430;
+    outline: none;
+    /*Remove o contorno( borda externa) do elemnto*/
+    transition: 0.3s;}
